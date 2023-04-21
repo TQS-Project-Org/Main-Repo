@@ -5,7 +5,13 @@
 > title and concise description of the project. 
 
 ## Team 
-> students’ identification (and the assigned roles, if applicable). 
+> students’ identification (and the assigned roles, if applicable).  
+
+- 104360 - **João Teles**       - Team Leader 
+- 101082 - **Marcus Peterson**   - QA Engineer
+- 97151 - **Bruno Moura**      - Devops master
+- 101099 - **Victor Melo**     - Product Owner
+
 ## Bookmarks 
 > link all relevant resources here!
 - Project Backlog (e.g.: JIRA, GitLab agile planning)

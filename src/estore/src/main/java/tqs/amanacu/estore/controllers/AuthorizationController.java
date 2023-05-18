@@ -77,6 +77,7 @@ public class AuthorizationController {
     }
 
     // Create new user's account
+    System.out.println(signUpRequest.getEmail());
     User user = new User(signUpRequest.getUsername(),
                          signUpRequest.getEmail(),
                          encoder.encode(signUpRequest.getPassword()));

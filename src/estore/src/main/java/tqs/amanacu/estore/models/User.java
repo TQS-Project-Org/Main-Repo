@@ -20,12 +20,12 @@ public class User {
     private Long id;
 
     @NotBlank
-    @Size(max = 50)
-    private String email;
-
-    @NotBlank
     @Size(max = 20)
     private String username;
+
+    @NotBlank
+    @Size(max = 50)
+    private String email;
 
     @NotBlank
     @Size(max = 100)
@@ -35,9 +35,9 @@ public class User {
         // Empty constructor
     }
 
-    public User(String email, String username, String password) {
-        this.email = email;
+    public User(String username, String email, String password) {
         this.username = username;
+        this.email = email;
         this.password = password;
     }
 

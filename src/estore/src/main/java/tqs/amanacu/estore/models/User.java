@@ -25,7 +25,7 @@ public class User {
 
     @NotBlank
     @Size(max = 20)
-    private String name;
+    private String username;
 
     @NotBlank
     @Size(max = 100)
@@ -35,9 +35,9 @@ public class User {
         // Empty constructor
     }
 
-    public User(String email, String name, String password) {
+    public User(String email, String username, String password) {
         this.email = email;
-        this.name = name;
+        this.username = username;
         this.password = password;
     }
 
@@ -45,12 +45,12 @@ public class User {
         return this.id;
     }
 
-    public String getName() {
-        return this.name;
+    public String getUsername() {
+        return this.username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getEmail() {

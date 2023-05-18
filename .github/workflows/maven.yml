@@ -10,7 +10,7 @@ name: Maven Test
 
 on:
   push:
-    branches: [ "feat/estore" ]
+    branches: [ "*" ]
   pull_request:
     branches: [ "main" ]
 

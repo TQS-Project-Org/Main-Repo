@@ -7,6 +7,6 @@ import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "classpath:resources/User.feature")
-public class User_Test {
+public class UserTest {
     // This is just a runner class, no implementation needed here
 }

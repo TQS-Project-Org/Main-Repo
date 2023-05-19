@@ -9,7 +9,7 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @IncludeEngines("cucumber")
-@SelectClasspathResource("")
+@SelectClasspathResource("tqs/amanacu/estore")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "tqs.amanacu.estore")
 public class Runner {
     // This is just a runner class, no implementation needed here

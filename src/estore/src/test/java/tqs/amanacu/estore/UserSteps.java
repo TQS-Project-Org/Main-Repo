@@ -1,5 +1,7 @@
 package tqs.amanacu.estore;
 
+import tqs.amanacu.estore.models.User;
+
 import static org.junit.Assert.assertEquals;
 
 import jakarta.validation.ConstraintViolation;
@@ -9,8 +11,6 @@ import jakarta.validation.Validator;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
-import tqs.amanacu.estore.models.User;
 
 public class UserSteps {
 

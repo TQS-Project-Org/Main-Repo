@@ -2,7 +2,7 @@ package tqs.amanacu.estore;
 
 import tqs.amanacu.estore.models.User;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validation;

@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "classpath:resources/User.feature")
-public class UserTest {
+@CucumberOptions(features = "src/test/java/tqs/amanacu/estore/resources/User.feature")
+public class Runner {
     // This is just a runner class, no implementation needed here
 }
